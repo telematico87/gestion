@@ -1,0 +1,170 @@
+ERROR - 2022-04-08 10:59:42 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-08 10:59:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\UserProviderTrait.php(72): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Adapters\SessionAdapter.php(296): App\Models\UserModel->findByRememberToken('10', '832399177c871b3...')
+#6 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Adapters\SessionAdapter.php(213): Fluent\Auth\Adapters\SessionAdapter->userFromRecaller(Object(Fluent\Auth\CookieRecaller))
+#7 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\GuardHelperTrait.php(48): Fluent\Auth\Adapters\SessionAdapter->user()
+#8 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(60): Fluent\Auth\Adapters\SessionAdapter->check()
+#9 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#11 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('producto', 'before')
+#12 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2022-04-08 11:35:23 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-08 11:35:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\UserProviderTrait.php(72): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Adapters\SessionAdapter.php(296): App\Models\UserModel->findByRememberToken('10', '832399177c871b3...')
+#6 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Adapters\SessionAdapter.php(213): Fluent\Auth\Adapters\SessionAdapter->userFromRecaller(Object(Fluent\Auth\CookieRecaller))
+#7 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\GuardHelperTrait.php(48): Fluent\Auth\Adapters\SessionAdapter->user()
+#8 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(60): Fluent\Auth\Adapters\SessionAdapter->check()
+#9 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#11 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('nuevo-producto', 'before')
+#12 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2022-04-08 12:50:45 --> Undefined array key "price"
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Add.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Add.php(63): App\Controllers\Purchase\Add->detail(5, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase\Add->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase\Add))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-08 13:34:44 --> Array to string conversion
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Add.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase\Add->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase\Add))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-08 13:34:56 --> Array to string conversion
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Add.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase\Add->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase\Add))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-08 13:35:51 --> Array to string conversion
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Add.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase\Add->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase\Add))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-08 13:39:30 --> Array to string conversion
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Add.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase\Add->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase\Add))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-08 19:14:02 --> Unknown column 'price' in 'field list'
+ERROR - 2022-04-08 19:27:20 --> Unknown column 'p.price' in 'field list'
+CRITICAL - 2022-04-08 19:27:20 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Detail.php(14): App\Models\PurchaseDetailModel->readPurchaseDetails('1')
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase\Detail->index('1')
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase\Detail))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-08 19:28:39 --> Unknown column 'p.price' in 'field list'
+CRITICAL - 2022-04-08 19:28:39 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Detail.php(14): App\Models\PurchaseDetailModel->readPurchaseDetails('1')
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase\Detail->index('1')
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase\Detail))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-08 20:47:34 --> Unknown column 'p.price' in 'field list'
+CRITICAL - 2022-04-08 20:47:34 --> Call to a member function getResultObject() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(13): App\Models\ProductModel->readProducts()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-08 20:49:26 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Product\main.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-08 20:49:46 --> Undefined property: stdClass::$pricesale
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Product\main.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-08 20:55:02 --> Unknown column 'price' in 'field list'
+CRITICAL - 2022-04-08 20:55:02 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(31): App\Models\SaleModel->readProducts()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->getProducts()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-08 20:56:27 --> Unknown column 'price' in 'field list'
+CRITICAL - 2022-04-08 20:56:27 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(31): App\Models\SaleModel->readProducts()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->getProducts()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-08 20:56:33 --> Unknown column 'price' in 'field list'
+CRITICAL - 2022-04-08 20:56:33 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(31): App\Models\SaleModel->readProducts()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->getProducts()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-08 21:45:58 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Sale\detail.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Sale/detail', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Detail.php(19): view('Sale/detail', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Detail->index('5')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Detail))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

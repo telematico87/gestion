@@ -1,0 +1,13 @@
+ERROR - 2022-03-22 18:19:05 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-22 18:19:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\IncomeModel.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Income.php(28): App\Models\IncomeModel->readProducts()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Income->getProducts()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Income))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

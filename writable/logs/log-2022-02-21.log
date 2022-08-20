@@ -1,0 +1,478 @@
+ERROR - 2022-02-21 07:29:05 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 07:38:24 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 07:38:25 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 07:38:29 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 07:38:45 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 07:39:10 --> Unknown column 'category' in 'field list'
+CRITICAL - 2022-02-21 07:40:28 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\product\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 07:40:48 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\product\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 07:42:47 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\product\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 07:43:30 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\product\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 07:44:13 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\product\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-21 07:45:27 --> Unknown column 'category' in 'field list'
+CRITICAL - 2022-02-21 07:45:27 --> Undefined property: stdClass::$price
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\product\main.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-21 07:46:27 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 07:51:01 --> Unknown column 'url' in 'field list'
+ERROR - 2022-02-21 07:53:14 --> Unknown column 'url' in 'field list'
+ERROR - 2022-02-21 07:54:02 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`))
+ERROR - 2022-02-21 08:01:59 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:02:48 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:03:03 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:04:02 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:04:27 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:04:31 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:06:49 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:10:53 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:11:14 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:24:03 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-02-21 08:24:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\ProductModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(12): App\Models\ProductModel->readProducts()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-02-21 08:26:04 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:26:21 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:26:30 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:26:32 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:27:10 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:27:15 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:28:19 --> Duplicate entry '1' for key 'name'
+ERROR - 2022-02-21 08:28:24 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:35:37 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:35:50 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:39:55 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:40:29 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:43:59 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:45:28 --> Unknown column 'category' in 'field list'
+ERROR - 2022-02-21 08:46:03 --> Unknown column 'category' in 'field list'
+CRITICAL - 2022-02-21 10:21:20 --> Undefined property: stdClass::$picture
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\product\main.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 13:08:31 --> Too few arguments to function App\Controllers\Product\Edit::index(), 0 passed in C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-02-21 13:18:00 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-02-21 13:18:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\ProductModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(21): App\Models\ProductModel->readProduct('29')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('29')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-21 15:48:46 --> Undefined property: stdClass::$S
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('35')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 15:56:00 --> Attempt to read property "S" on array
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('35')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:00:41 --> Undefined array key "ss"
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('35')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:16:19 --> Undefined property: stdClass::$category
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('35')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-21 16:26:45 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-02-21 16:26:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\ProductModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(21): App\Models\ProductModel->readProduct('35')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('35')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-21 16:27:01 --> Undefined property: stdClass::$category
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('35')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:27:32 --> Attempt to read property "picture" on null
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('fefef6e53a3c2d2...')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:29:00 --> Undefined property: stdClass::$xz
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('35')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:31:33 --> Attempt to read property "picture" on null
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('fefef6e53a3c2d2...')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:32:50 --> Attempt to read property "picture" on null
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('fefef6e53a3c2d2...')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:32:56 --> Attempt to read property "picture" on null
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('fefef6e53a3c2d2...')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:37:45 --> Attempt to read property "picture" on null
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(32): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('21')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 18:12:53 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 18:13:06 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 18:15:01 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 18:15:15 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 18:15:32 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-21 16:26:59 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-02-21 16:26:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nam...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\ProductModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(12): App\Models\ProductModel->readProducts()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-21 16:27:26 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:35:59 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:39:18 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 16:39:54 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 17:02:40 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 17:05:17 --> Undefined variable $picture
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 17:05:50 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 17:07:20 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-21 17:08:33 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Js\product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/product', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(20): view('js/product')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

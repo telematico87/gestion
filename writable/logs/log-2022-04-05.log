@@ -1,0 +1,475 @@
+CRITICAL - 2022-04-05 11:53:39 --> Attempt to read property "full_name" on null
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Product\add.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/add', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Add.php(36): view('Product/add', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Add->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Add))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-05 11:53:50 --> Attempt to read property "full_name" on null
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Product\add.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/add', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Add.php(36): view('Product/add', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Add->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Add))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-05 11:54:40 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 11:54:56 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 11:54:56 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 12:11:49 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Product\edit.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/edit', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(29): view('Product/edit', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('2')
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-05 12:22:20 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-04-05 12:22:20 --> Call to a member function getRowObject() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(21): App\Models\ProductModel->readProduct('2')
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('2')
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-05 12:57:36 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-04-05 12:57:36 --> Call to a member function getRowObject() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(21): App\Models\ProductModel->readProduct('2')
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('2')
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-05 13:00:46 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-04-05 13:00:46 --> Call to a member function getRowObject() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(21): App\Models\ProductModel->readProduct('2')
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('2')
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-05 13:06:05 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-04-05 13:06:05 --> Call to a member function getRowObject() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(21): App\Models\ProductModel->readProduct('2')
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('2')
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-05 13:06:14 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-04-05 13:06:14 --> Call to a member function getRowObject() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Edit.php(21): App\Models\ProductModel->readProduct('4')
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index('4')
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-05 14:37:13 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 14:39:48 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 15:02:15 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 15:02:35 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 15:03:59 --> Unauthenticated.
+#0 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(65): Fluent\Auth\Filters\AuthenticationFilter->unauthenticated(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('perfil', 'before')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-05 15:11:11 --> Unauthenticated.
+#0 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(65): Fluent\Auth\Filters\AuthenticationFilter->unauthenticated(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('perfil', 'before')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-05 15:32:22 --> Unauthenticated.
+#0 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(65): Fluent\Auth\Filters\AuthenticationFilter->unauthenticated(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-05 15:45:30 --> Unauthenticated.
+#0 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(65): Fluent\Auth\Filters\AuthenticationFilter->unauthenticated(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-05 15:47:19 --> Unauthenticated.
+#0 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(65): Fluent\Auth\Filters\AuthenticationFilter->unauthenticated(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-05 15:47:56 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 15:48:29 --> Unauthenticated.
+#0 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(65): Fluent\Auth\Filters\AuthenticationFilter->unauthenticated(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-05 15:48:39 --> 
+#0 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(65): Fluent\Auth\Filters\AuthenticationFilter->unauthenticated(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-05 15:52:18 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 15:52:24 --> Unauthenticated.
+#0 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(65): Fluent\Auth\Filters\AuthenticationFilter->unauthenticated(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-05 15:52:37 --> pepe.
+#0 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(65): Fluent\Auth\Filters\AuthenticationFilter->unauthenticated(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-05 15:59:00 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 16:42:26 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 16:42:27 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-04-05 18:08:13 --> Cannot delete or update a parent row: a foreign key constraint fails (`salessystem`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`))
+CRITICAL - 2022-04-05 18:52:12 --> Too few arguments to function App\Controllers\Product\Edit::index(), 0 passed in C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Edit->index()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Edit))
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-05 19:04:02 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Product\main.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-05 19:05:18 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Product\main.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Product/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(17): view('Product/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-05 19:24:07 --> Cannot delete or update a parent row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+ERROR - 2022-04-05 19:24:16 --> Cannot delete or update a parent row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+ERROR - 2022-04-05 19:25:29 --> Cannot delete or update a parent row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+ERROR - 2022-04-05 20:42:36 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ERROR - 2022-04-05 20:42:36 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 20:42:36 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 20:43:24 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ERROR - 2022-04-05 20:43:24 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 20:43:24 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 20:44:17 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ERROR - 2022-04-05 20:44:17 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 20:44:17 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 20:44:32 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ERROR - 2022-04-05 20:44:32 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 20:46:56 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ERROR - 2022-04-05 20:46:56 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 20:57:08 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ERROR - 2022-04-05 20:57:08 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 20:59:21 --> Unknown column 'd.id' in 'where clause'
+CRITICAL - 2022-04-05 20:59:21 --> Call to a member function getRowObject() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Detail.php(13): App\Models\PurchaseDetailModel->readPurchase('11')
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase\Detail->index('11')
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase\Detail))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-05 21:01:12 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ERROR - 2022-04-05 21:01:12 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+ERROR - 2022-04-05 21:03:18 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ERROR - 2022-04-05 21:03:18 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase_detail`, CONSTRAINT `purchase_detail_ibfk_1` FOREIGN KEY (`purchase_id`) REFERENCES `purchase` (`id`))
+CRITICAL - 2022-04-05 21:29:30 --> array_push(): Argument #1 ($array) cannot be passed by reference
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Add.php(81): App\Controllers\Purchase\Add->updateStock('4', '12', '24')
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase\Add.php(64): App\Controllers\Purchase\Add->detail(30, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase\Add->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase\Add))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-04-05 22:25:40 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:25:40 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:25:40 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:27:38 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:27:38 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:27:38 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:28:36 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:28:36 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:28:36 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:28:56 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:28:56 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:28:56 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:31:46 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:31:46 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:31:46 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:35:13 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:35:39 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:35:39 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:35:39 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:36:05 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:36:05 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:37:40 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:37:40 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:37:40 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:39:12 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:39:12 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:39:12 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`sale_detail`, CONSTRAINT `sale_detail_ibfk_1` FOREIGN KEY (`sale_id`) REFERENCES `sale` (`id`))
+ERROR - 2022-04-05 22:39:33 --> Column 'discount' cannot be null
+ERROR - 2022-04-05 22:40:10 --> Column 'discount' cannot be null
+CRITICAL - 2022-04-05 22:49:34 --> Undefined variable $purchase
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\Sale\main.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Sale/main', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Main.php(17): view('Sale/main', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Main->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Main))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-05 23:10:24 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(22): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 23:10:25 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(22): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 23:33:00 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(22): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 23:35:08 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(22): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 23:35:45 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(22): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 23:39:59 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(22): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 23:40:52 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(22): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-05 23:41:16 --> Invalid file: js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(22): view('js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

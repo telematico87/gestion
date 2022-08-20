@@ -1,0 +1,18 @@
+CRITICAL - 2022-04-09 21:11:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\c2sistemaventas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\c2sistemaventas\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-09 15:20:02 --> Attempt to read property "full_name" on null
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\user.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\User.php(24): view('user', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\User->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

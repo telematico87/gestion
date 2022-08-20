@@ -1,0 +1,126 @@
+ERROR - 2022-03-25 00:15:33 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_1` FOREIGN KEY (`supplier_id`) REFERENCES `supplier` (`id`))
+ERROR - 2022-03-25 15:56:00 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-25 15:56:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\PurchaseModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(21): App\Models\PurchaseModel->readSuppliers()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-25 16:35:09 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-25 16:57:28 --> Attempt to read property "name" on string
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-25 16:57:50 --> Attempt to read property "name" on null
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-25 17:52:05 --> json_decode(): Argument #1 ($json) must be of type string, array given
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(48): json_decode(Array)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-25 18:18:59 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-25 18:18:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\PurchaseModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(21): App\Models\PurchaseModel->readSuppliers()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-25 18:32:52 --> Undefined variable $purchasedetails
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-25 18:32:56 --> Undefined variable $purchasedetails
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-25 18:57:14 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-25 19:30:36 --> CodeIgniter\Validation\Rules::greater_than(): Argument #2 ($min) must be of type string, null given, called in C:\xampp\htdocs\c2sistemaventas\system\Validation\Validation.php on line 291
+#0 C:\xampp\htdocs\c2sistemaventas\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->greater_than('297.36', NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('purchase.total', 'purchase.total', '297.36', Array, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(51): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-25 19:30:46 --> greater_than=0 is not a valid rule.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('greater_than=0')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('purchase.total', 'purchase.total', '297.36', Array, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(51): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-25 20:53:51 --> All accounts must have usernames provided is not a valid rule.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('All accounts mu...')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('purchase.subtot...', 'purchase.subtot...', '0.00', Array, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(53): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-25 20:54:05 -->  is not a valid rule.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('purchase.subtot...', 'purchase.subtot...', '0.00', Array, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(57): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

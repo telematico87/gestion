@@ -1,0 +1,96 @@
+ERROR - 2022-03-20 17:34:51 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-20 17:34:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\IncomeModel.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Income.php(19): App\Models\IncomeModel->readIncomes()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Income->index()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Income))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-20 17:47:24 --> Invalid file: Js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(19): view('Js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-20 17:48:18 --> Invalid file: Js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Main.php(19): view('Js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Main))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-20 18:04:46 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-20 18:04:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\SupplierModel.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Supplier.php(19): App\Models\SupplierModel->readSuppliers()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Supplier->index()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-20 18:40:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Income.php(19): CodeIgniter\Model->__call('readIncomes', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Income->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Income))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-20 18:41:16 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Income.php(19): CodeIgniter\Model->__call('readIncomes', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Income->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Income))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-20 18:42:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Income.php(19): CodeIgniter\Model->__call('readIncomes', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Income->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Income))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-20 18:42:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Income.php(19): CodeIgniter\Model->__call('readIncomes', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Income->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Income))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-20 18:56:23 --> Invalid file: Js/main.php
+#0 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Js/main.php')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('Js/main', Array, true)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Product\Add.php(38): view('Js/main')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Product\Add->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product\Add))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

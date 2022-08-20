@@ -1,0 +1,117 @@
+CRITICAL - 2022-04-06 01:06:28 --> json_encode() expects at most 3 arguments, 4 given
+#0 C:\xampp\htdocs\c2sistemaventas\app\Models\DashboardModel.php(25): json_encode(10, 2, 8, 7)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(28): App\Models\DashboardModel->readCants()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->getData()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-06 01:10:31 --> Array to string conversion
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->getData()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-06 01:13:13 --> Array to string conversion
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->getData()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-06 01:16:01 --> Undefined array key "shana"
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->getData()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-06 01:28:45 --> Unknown column 'field' in 'where clause'
+CRITICAL - 2022-04-06 11:13:40 --> Undefined variable $sale
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\dashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(20): view('dashboard')
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-06 11:16:44 --> Illegal offset type
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(31): App\Models\DashboardModel->readCants()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->getData()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-06 11:23:11 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('dashboard', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-06 11:23:21 --> Undefined variable $product
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(23): view('dashboard', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-06 12:20:33 --> Undefined variable $supplier
+#0 C:\xampp\htdocs\c2sistemaventas\app\Views\dashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c2sistemaventas\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(24): view('dashboard', Array)
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-06 12:41:30 --> Unknown column 'year' in 'order clause'
+CRITICAL - 2022-04-06 12:41:30 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Dashboard.php(19): App\Models\DashboardModel->readInfo()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-06 19:06:40 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-06 19:06:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '8')
+#4 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\UserProviderTrait.php(26): CodeIgniter\BaseModel->find('8')
+#5 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Adapters\SessionAdapter.php(205): App\Models\UserModel->findById('8')
+#6 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\GuardHelperTrait.php(48): Fluent\Auth\Adapters\SessionAdapter->user()
+#7 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(60): Fluent\Auth\Adapters\SessionAdapter->check()
+#8 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#9 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('producto', 'before')
+#11 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

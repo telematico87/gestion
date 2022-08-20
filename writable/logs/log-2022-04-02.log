@@ -1,0 +1,43 @@
+CRITICAL - 2022-04-02 16:34:14 --> Class "Fluent\Auth\Facades\Auth" not found
+#0 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(706): require()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\c2sistemaventas\spark(63): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2022-04-02 16:36:50 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\User given
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseResult.php(377): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 C:\xampp\htdocs\c2sistemaventas\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow('App\\Entities\\Us...')
+#5 C:\xampp\htdocs\c2sistemaventas\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '7')
+#6 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\UserProviderTrait.php(26): CodeIgniter\BaseModel->find('7')
+#7 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Adapters\SessionAdapter.php(205): App\Models\UserModel->findById('7')
+#8 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\GuardHelperTrait.php(48): Fluent\Auth\Adapters\SessionAdapter->user()
+#9 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(60): Fluent\Auth\Adapters\SessionAdapter->check()
+#10 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#11 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#12 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#13 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2022-04-02 18:32:01 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-02 18:32:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '7')
+#4 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\UserProviderTrait.php(26): CodeIgniter\BaseModel->find('7')
+#5 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Adapters\SessionAdapter.php(205): App\Models\UserModel->findById('7')
+#6 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\GuardHelperTrait.php(48): Fluent\Auth\Adapters\SessionAdapter->user()
+#7 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(60): Fluent\Auth\Adapters\SessionAdapter->check()
+#8 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Filters\AuthenticationFilter.php(35): Fluent\Auth\Filters\AuthenticationFilter->authenticate(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#9 C:\xampp\htdocs\c2sistemaventas\system\Filters\Filters.php(173): Fluent\Auth\Filters\AuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#11 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

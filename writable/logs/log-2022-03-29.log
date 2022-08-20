@@ -1,0 +1,64 @@
+CRITICAL - 2022-03-29 00:40:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(20): CodeIgniter\Model->__call('readClients', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-29 00:44:06 --> Unknown column 'ruc' in 'field list'
+CRITICAL - 2022-03-29 00:44:06 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(20): App\Models\SaleModel->readClients()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->index()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-29 15:46:26 --> Undefined array key "product_id"
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(64): App\Controllers\Sale\Add->detail(9, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-29 15:53:57 --> Undefined array key "product_id"
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(64): App\Controllers\Sale\Add->detail(10, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-29 15:55:20 --> Undefined array key "product_id"
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(64): App\Controllers\Sale\Add->detail(11, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-29 16:00:34 --> Undefined array key "product_id"
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(64): App\Controllers\Sale\Add->detail(12, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-29 16:01:57 --> Undefined array key "product_id"
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Sale\Add.php(64): App\Controllers\Sale\Add->detail(13, Array)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Sale\Add->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sale\Add))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

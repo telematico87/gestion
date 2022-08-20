@@ -1,0 +1,66 @@
+ERROR - 2022-03-24 16:18:23 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-24 16:18:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\PurchaseModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(19): App\Models\PurchaseModel->readSuppliers()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-24 17:58:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(25): CodeIgniter\Model->__call('checkPurchase', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 18:10:15 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(24): CodeIgniter\Model->__call('checkPurchase', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 18:55:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(24): CodeIgniter\Model->__call('checkPurchase', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 18:55:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(24): CodeIgniter\Model->__call('checkPurchase', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 18:58:16 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\c2sistemaventas\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\c2sistemaventas\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(24): CodeIgniter\Model->__call('checkPurchase', Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-24 19:04:36 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_1` FOREIGN KEY (`supplier_id`) REFERENCES `supplier` (`id`))
+ERROR - 2022-03-24 19:07:05 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_1` FOREIGN KEY (`supplier_id`) REFERENCES `supplier` (`id`))
+ERROR - 2022-03-24 19:26:28 --> Cannot add or update a child row: a foreign key constraint fails (`salessystem`.`purchase`, CONSTRAINT `purchase_ibfk_1` FOREIGN KEY (`supplier_id`) REFERENCES `supplier` (`id`))

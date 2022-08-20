@@ -1,0 +1,12 @@
+ERROR - 2022-03-08 11:41:56 --> Unknown column 'c.description' in 'field list'
+CRITICAL - 2022-03-08 11:41:56 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Supplier.php(19): App\Models\SupplierModel->readSuppliers()
+#1 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Supplier->index()
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-08 12:24:01 --> Unknown column 'phonenumber' in 'field list'
+ERROR - 2022-03-08 12:24:36 --> Unknown column 'phonenumber' in 'field list'
+ERROR - 2022-03-08 12:44:27 --> Unknown column 'phonenumber' in 'field list'

@@ -1,0 +1,113 @@
+ERROR - 2022-03-26 14:22:24 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-26 14:22:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\app\Models\PurchaseModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(21): App\Models\PurchaseModel->readSuppliers()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#6 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-26 15:34:06 --> Column 'purchase_id' cannot be null
+ERROR - 2022-03-26 15:34:06 --> Column 'purchase_id' cannot be null
+CRITICAL - 2022-03-26 16:11:13 --> syntax error, unexpected token "$", expecting ")"
+#0 C:\xampp\htdocs\c2sistemaventas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Purc...')
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Purc...')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-26 16:11:45 --> syntax error, unexpected token "$", expecting ")"
+#0 C:\xampp\htdocs\c2sistemaventas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\c2sistemaventas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Purc...')
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Purc...')
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->index()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-26 16:39:52 --> Column 'purchase_id' cannot be null
+CRITICAL - 2022-03-26 16:39:52 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(92): App\Models\PurchaseModel->updateProduct('8', '24', '564.00')
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(86): App\Controllers\Purchase->updateStock('8', '24', '564.00')
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(69): App\Controllers\Purchase->detail(NULL, Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-26 16:41:47 --> Column 'purchase_id' cannot be null
+ERROR - 2022-03-26 16:41:47 --> Column 'purchase_id' cannot be null
+CRITICAL - 2022-03-26 16:57:41 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(92): App\Models\PurchaseModel->updateProduct('8', '24', '564.00')
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(86): App\Controllers\Purchase->updateStock('8', '24', '564.00')
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(69): App\Controllers\Purchase->detail(1, Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-26 17:00:05 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(92): App\Models\PurchaseModel->updateProduct('4', '15', '487.50')
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(86): App\Controllers\Purchase->updateStock('4', '15', '487.50')
+#2 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(69): App\Controllers\Purchase->detail(2, Array)
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#5 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-26 17:16:43 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(65): App\Models\PurchaseModel->updateProduct(1, 12, 124)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(43): App\Controllers\Purchase->updateStock(1, 12, 124)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-26 17:17:22 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(65): App\Models\PurchaseModel->updateProduct(1, 12, 124)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(43): App\Controllers\Purchase->updateStock(1, 12, 124)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-26 17:29:36 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(65): App\Models\PurchaseModel->updateProduct(1, 12, 124)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(43): App\Controllers\Purchase->updateStock(1, 12, 124)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-26 17:30:19 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(65): App\Models\PurchaseModel->updateProduct(1, 12, 124)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(43): App\Controllers\Purchase->updateStock(1, 12, 124)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-26 17:37:44 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(65): App\Models\PurchaseModel->updateProduct(1, 12, 124)
+#1 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Purchase.php(43): App\Controllers\Purchase->updateStock(1, 12, 124)
+#2 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Purchase->save()
+#3 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Purchase))
+#4 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

@@ -1,0 +1,18 @@
+ERROR - 2022-04-16 00:32:25 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-16 00:32:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\c2sistemaventas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\c2sistemaventas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\c2sistemaventas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Traits\UserProviderTrait.php(60): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Adapters\SessionAdapter.php(101): App\Models\UserModel->findByCredentials(Array)
+#6 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\AuthManager.php(339): Fluent\Auth\Adapters\SessionAdapter->attempt(Array, true)
+#7 C:\xampp\htdocs\c2sistemaventas\app\ThirdParty\codeigniter4-authentication\src\Facades\Auth.php(58): Fluent\Auth\AuthManager->__call('attempt', Array)
+#8 C:\xampp\htdocs\c2sistemaventas\app\Controllers\Auth\AuthenticatedSessionController.php(73): Fluent\Auth\Facades\Auth::__callStatic('attempt', Array)
+#9 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(825): App\Controllers\Auth\AuthenticatedSessionController->create()
+#10 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\AuthenticatedSessionController))
+#11 C:\xampp\htdocs\c2sistemaventas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\c2sistemaventas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\c2sistemaventas\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

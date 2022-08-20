@@ -1,0 +1,55 @@
+{
+    "name": "agungsugiarto/codeigniter4-authentication",
+    "description": "Provides an API for authentication and includes concrete authentication adapters for common use case scenarios",
+    "keywords": [
+        "codeigniter4",
+        "authentication",
+        "auth"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agung Sugiarto",
+            "email": "me.agungsugiarto@gmail.com",
+            "homepage": "https://agungsugiarto.github.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "codeigniter4/framework": "^4.1",
+        "php": "^7.3 || ^8.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.13",
+        "phpunit/phpunit": "^9.1",
+        "laminas/laminas-coding-standard": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fluent\\Auth\\": "src/"
+        },
+        "files": [
+            "src/Helpers/auth_helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fluent\\Auth\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "provide": {
+        "codeigniter4/authentication-implementation": "1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "phpunit"
+    }
+}
