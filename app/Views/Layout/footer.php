@@ -4,16 +4,12 @@
 					<div class="col-lg-6 mb-lg-0 mb-4">
 						<div class="copyright text-center text-sm text-muted text-lg-start">
 							© <?= date('Y');?>,
-							Sistema de Ventas CI2 desarrollado <i class="fa fa-heart"></i> por
-							<a href="https://lightsthing.net" class="font-weight-bold" target="_blank">Lights Thing</a>
+							Gestion por xxxx
 						</div>
 					</div>
 					<div class="col-lg-6 mb-lg-0 mb-4">
 						<div class="copyright text-center text-sm text-muted text-lg-end">
-							© <?= date('Y');?>,
-							made with <i class="fa fa-heart"></i> by
-							<a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
-							for a better web.
+							 xxxx
 						</div>
 					</div>
 				</div>
