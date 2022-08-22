@@ -354,15 +354,7 @@
 										<input v-model="distrito" class="form-control" type="text" placeholder="Distrito" :class="{ 'is-invalid': errors.phonenumber }">
 										<div class="invalid-feedback">{{ errors.phonenumber }}</div>
 									</div>
-								</div>
-
-								<div class="col-md-4">
-												<div class="form-group">
-													<label for="example-text-input" class="form-control-label">Código cliente</label>
-													<input v-model="codigocliente" class="form-control" type="text" placeholder="Prenombres" :class="{ 'is-invalid': errors.name }">
-													<div class="invalid-feedback">{{ errors.name }}</div>
-												</div>
-											</div>
+								</div>		
 
 										
 											<h6 class="card-subtitle mb-2 text-muted">Datos del contacto</h6>
@@ -446,25 +438,7 @@
 												<div class="invalid-feedback">{{ errors.address }}</div>
 											</div>
 										</div>
-											
-									
-									
-										<div class="col-md-4">	
-											<div class="form-group">
-													<label for="example-text-input" class="form-control-label">Correo Opsitel</label>
-													<input v-model="email-opsitel" class="form-control" type="text" placeholder="Correo Opsitel" :class="{ 'is-invalid': errors.email }">
-													<div class="invalid-feedback">{{ errors.email }}</div>
-												</div>
-										</div>
-										<div class="col-md-4">	
-											<div class="form-group">
-													<label for="example-text-input" class="form-control-label">Sesion Opsitel</label>
-													<input v-model="session-opsitel" class="form-control" type="text" placeholder="Sesion Opsitel" :class="{ 'is-invalid': errors.email }">
-													<div class="invalid-feedback">{{ errors.email }}</div>
-												</div>
-										</div>
-
-								
+														
 											
 											<div class="button-row d-flex mt-4 mb-2">
 												<button class="btn bg-gradient-success ms-auto mb-0" type="submit">Guardar</button>
