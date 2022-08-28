@@ -1,0 +1,112 @@
+CRITICAL - 2022-08-27 14:56:57 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-08-27 14:56:57 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/gestion/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/gestion/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/gestion/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/gestion/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/gestion/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/gestion/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-27 14:57:33 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-08-27 14:57:33 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/gestion/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/gestion/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/gestion/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/gestion/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/gestion/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/gestion/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-27 14:57:36 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-08-27 15:03:31 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-08-27 15:03:31 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/gestion/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/gestion/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/gestion/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/gestion/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/gestion/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/gestion/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-27 15:06:50 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-08-27 15:24:16 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-08-27 16:02:33 --> The framework needs the following extension(s) installed and loaded: intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-08-27 16:08:11 --> The framework needs the following extension(s) installed and loaded: intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-08-27 16:08:11 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/gestion/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/gestion/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/gestion/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/gestion/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/gestion/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/gestion/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/gestion/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-27 16:10:05 --> The framework needs the following extension(s) installed and loaded: intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-08-27 16:15:05 --> The framework needs the following extension(s) installed and loaded: intl, mbstring, xml.
+#0 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/gestion/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/gestion/spark(45): require('/opt/lampp/htdo...')
+#4 {main}

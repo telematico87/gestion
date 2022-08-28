@@ -24,12 +24,12 @@
 							<div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
 								<i class="fa-solid fa-box text-dark text-sm"></i>
 							</div>
-							<span class="nav-link-text ms-2">Almacen</span>
+							<span class="nav-link-text ms-2">Reclamos</span>
 						</a>
 						<div class="collapse" id="store">
 							<ul class="nav ms-4">
-								<li class="nav-item"><a class="nav-link" href="<?= base_url('categoria');?>"><span class="sidenav-normal">Categorias</span></a></li>
-								<li class="nav-item"><a class="nav-link" href="<?= base_url('producto');?>"><span class="sidenav-normal">Productos</span></a></li>
+								<li class="nav-item"><a class="nav-link" href="<?= base_url('categoria');?>"><span class="sidenav-normal">Calidad</span></a></li>
+								<li class="nav-item"><a class="nav-link" href="<?= base_url('producto');?>"><span class="sidenav-normal">Facturacion</span></a></li>
 							</ul>
 						</div>
 					</li>
@@ -38,15 +38,25 @@
 							<div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
 								<i class="fa-solid fa-truck-fast text-dark text-sm opacity-10"></i>
 							</div>
-							<span class="nav-link-text ms-2">Compras</span>
+							<span class="nav-link-text ms-2">Queja</span>
 						</a>
 						<div class="collapse" id="buy">
 							<ul class="nav ms-4">
-								<li class="nav-item"><a class="nav-link" href="<?= base_url('proveedor');?>"><span class="sidenav-normal">Proveedores</span></a></li>
-								<li class="nav-item"><a class="nav-link" href="<?= base_url('compra');?>"><span class="sidenav-normal">Compras</span></a></li>
+								<li class="nav-item"><a class="nav-link" href="<?= base_url('proveedor');?>"><span class="sidenav-normal">Negativa</span></a></li>
+								<li class="nav-item"><a class="nav-link" href="<?= base_url('compra');?>"><span class="sidenav-normal">No ver expediente</span></a></li>
 							</ul>
 						</div>
 					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="<?= base_url('usuario');?>">
+							<div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+								<i class="fa-solid fa-users-gear text-dark text-sm opacity-10"></i>
+							</div>
+							<span class="nav-link-text">Apelaciones</span>
+						</a>
+					</li>
+
 					<li class="nav-item">
 						<a data-bs-toggle="collapse" href="#sale" class="nav-link" aria-expanded="false">
 							<div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
@@ -55,7 +65,7 @@
 							<span class="nav-link-text ms-2">Ventas</span>
 						</a>
 						<div class="collapse" id="sale">
-							<ul class="nav ms-4">
+							<ul class="nav ms-4"> 
 								<li class="nav-item"><a class="nav-link" href="<?= base_url('cliente');?>"><span class="sidenav-normal">Clientes</span></a>
 								</li>
 								<li class="nav-item"><a class="nav-link" href="<?= base_url('venta');?>"><span class="sidenav-normal">Ventas</span></a></li>

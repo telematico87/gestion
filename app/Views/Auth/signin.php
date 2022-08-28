@@ -20,7 +20,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
 	<link rel="icon" type="image/png" href="../assets/img/favicon.png">
-	<title>Sistema Ventas CI2</title>
+	<title>Gestion v1</title>
 	<!-- Fonts and icons -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
 	<!-- Nucleo Icons -->
@@ -64,8 +64,8 @@
 						<div class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 end-0 text-center justify-content-center flex-column">
 							<div class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center overflow-hidden" style="background-image: url('<?= base_url('assets/img/illustrations/bg.jpg');?>');background-size: cover;">
 								<span class="mask bg-gradient-primary opacity-6"></span>
-								<h4 class="mt-5 text-white font-weight-bolder position-relative">Sistema ventas CI2</h4>
-								<p class="text-white position-relative">Este proyecto es el regalo por haber llegado a los 500 suscriptores en el canal de YouTube, muchas gracias a todos por apoyar y sin más disfruten del proyecto.</p>
+								
+								
 							</div>
 						</div>
 					</div>

@@ -1086,6 +1086,8 @@ if (! function_exists('view')) {
             unset($options['saveData']);
         }
 
+    
+
         return $renderer->setData($data, 'raw')->render($name, $options, $saveData);
     }
 }

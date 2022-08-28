@@ -18,11 +18,11 @@ class Dashboard extends Controller
 		$dashboardModel = new DashboardModel();
 		$response = $dashboardModel->readInfo();
 		
-		echo view('layout/head');
-		echo view('layout/aside');
+		echo view('Layout/head');
+		echo view('Layout/aside');
 		echo view('dashboard', $response);
-		echo view('layout/footer');
-		echo view('js/dashboard');
+		echo view('Layout/footer');
+		echo view('Js/dashboard');
 	}
 
 	public function getSalesGlobal()
