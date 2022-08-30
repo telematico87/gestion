@@ -1,0 +1,90 @@
+ERROR - 2022-08-29 19:52:53 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:52:53 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-29 19:53:07 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:53:07 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-29 19:53:15 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:53:15 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-29 19:54:21 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:54:21 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-29 19:55:11 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:55:11 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-29 19:55:12 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:55:12 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-29 19:55:19 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:55:19 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-29 19:55:20 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:55:20 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-29 19:55:24 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:55:24 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-29 19:56:16 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-29 19:56:16 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}

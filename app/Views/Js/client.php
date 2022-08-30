@@ -51,6 +51,34 @@
 						phonenumber: this.phonenumber,
 						email: this.email,
 						address: this.address,
+					
+						responsible: this.responsible,
+						typeoperator: this.typeoperator,
+						typeservice: this.typeservice,
+						address_install: this.address_install,
+						representante: this.representante,
+						dni_representante: this.dni_representante,
+						fecha_nacimiento: this.fecha_nacimiento,
+						place_birth: this.place_birth,
+						madre: this.madre,
+						padre: this.padre,
+						fecha_emision: this.fecha_emision,
+						department: this.department,
+						province: this.province,
+						district: this.district,
+						recomienda: this.recomienda,	
+						contact_phone: this.contact_phone,	
+						email_notification: this.email_notification,
+						address_notification: this.address_notification,	
+						fecha_emision_facturacion: this.fecha_emision_facturacion,		
+						fecha_vencimiento_facturacion: this.fecha_vencimiento_facturacion,	
+						address_billing: this.address_billing,
+						address_rf: this.address_rf,
+						
+						cycle: this.cycle,	
+						
+						
+
 					}).then(response => {
 
 						if(response.data.type == 'success'){
