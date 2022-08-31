@@ -46,14 +46,14 @@
 	<!-- End Navbar -->
 	<div class="container-fluid py-4">
 		<div class="row">
-			<div class="col-lg-10 col-md-12">
+			<div class="col-lg-12 col-md-12" >
 				
 				<!-- Product List -->
-				<div class="card mb-4">
+				<div class="card mb-4" >
 					<div class="card-header pb-0">
 						<div class="d-md-flex">
 							<div>
-								<h5 class="mb-0">Todas las categorias</h5>
+								<h5 class="mb-0">Reclamos de Calidad</h5>
 							</div>
 							<div class="ms-auto my-auto mt-lg-0 mt-4">
 								<div class="ms-auto my-auto">
@@ -75,13 +75,25 @@
 							<table class="table align-items-center">
 								<thead>
 									<tr>
-										<th class="text-uppercase text-xs font-weight-bolder opacity-7">Categoria</th>
-										<th class="text-uppercase text-xs font-weight-bolder opacity-7 ps-2">Descripción</th>
+										<th width="15%" class="text-uppercase text-xs font-weight-bolder opacity-4">Ticket Calidad</th>
+										<th width="15%" class="text-uppercase text-xs font-weight-bolder opacity-4">Fecha Ticket</th>
+										<th width="20%" class="text-uppercase text-xs font-weight-bolder opacity-7">Còdigo Reclamo de Calidad</th>
+										<th width="20%" class="text-uppercase text-xs font-weight-bolder opacity-7">Fecha Registro Reclamo</th>
+										<th width="20%" class="text-uppercase text-xs font-weight-bolder opacity-7">Fecha Resoluciòn</th>
+										<th width="20%" class="text-uppercase text-xs font-weight-bolder opacity-7">Fecha Notificaciòn</th>
+										<th width="20%" class="text-uppercase text-xs font-weight-bolder opacity-7">Ajuste</th>
+										<th width="20%" class="text-uppercase text-xs font-weight-bolder opacity-7">Concluye Trami Calidad</th>
 										<th></th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr v-for="(item, index) in rows()">
+										<td class="px-4 text-xs font-weight-bold" width="15%">{{ item.name }}</td>
+										<td class="px-4 text-xs font-weight-bold" width="15%">{{ item.name }}</td>
+										<td class="px-4 text-xs font-weight-bold" width="15%">{{ item.name }}</td>
+										<td class="px-4 text-xs font-weight-bold" width="15%">{{ item.name }}</td>
+										<td class="px-4 text-xs font-weight-bold" width="15%">{{ item.name }}</td>
+										<td class="px-4 text-xs font-weight-bold" width="20%">{{ item.name }}</td>
 										<td class="px-4 text-xs font-weight-bold" width="20%">{{ item.name }}</td>
 										<td><span class="text-xs font-weight-bold">{{ (item.description).substring(0, 50) }}</span></td>
 										<td class="text-lg" width="6%">

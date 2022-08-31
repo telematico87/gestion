@@ -1,0 +1,106 @@
+ERROR - 2022-08-30 15:54:30 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-30 15:54:30 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-30 15:54:35 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-30 15:54:35 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-30 15:55:03 --> Unknown column 'type_document' in 'field list'
+CRITICAL - 2022-08-30 15:55:03 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-30 15:58:54 --> Unknown column 'num_document' in 'field list'
+CRITICAL - 2022-08-30 15:58:54 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(19): App\Models\ClientModel->readClients()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->index()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-30 17:33:10 --> Column 'type_document' cannot be null
+ERROR - 2022-08-30 17:34:22 --> Column 'type_document' cannot be null
+ERROR - 2022-08-30 17:46:11 --> Unknown column 'responsible' in 'field list'
+ERROR - 2022-08-30 17:50:22 --> Unknown column 'responsible' in 'field list'
+ERROR - 2022-08-30 17:51:44 --> Unknown column 'responsible' in 'field list'
+ERROR - 2022-08-30 17:53:54 --> Unknown column 'responsible' in 'field list'
+ERROR - 2022-08-30 17:57:27 --> Unknown column 'responsible' in 'field list'
+CRITICAL - 2022-08-30 17:57:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::print_error()
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(80): App\Models\ClientModel->createClient()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->save()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-30 17:58:01 --> Unknown column 'responsible' in 'field list'
+CRITICAL - 2022-08-30 17:58:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::show_errors()
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(80): App\Models\ClientModel->createClient()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->save()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-30 17:58:03 --> Unknown column 'responsible' in 'field list'
+CRITICAL - 2022-08-30 17:58:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::show_errors()
+#0 /opt/lampp/htdocs/gestion/app/Controllers/Client.php(80): App\Models\ClientModel->createClient()
+#1 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Client->save()
+#2 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-08-30 17:59:58 --> Unknown column 'responsible' in 'field list'
+ERROR - 2022-08-30 18:00:33 --> Unknown column 'responsible' in 'field list'
+ERROR - 2022-08-30 18:00:52 --> Unknown column 'representante' in 'field list'
+ERROR - 2022-08-30 18:01:43 --> Unknown column 'type_service' in 'field list'
+ERROR - 2022-08-30 18:02:07 --> Unknown column 'department' in 'field list'
+ERROR - 2022-08-30 18:47:41 --> Cannot delete or update a parent row: a foreign key constraint fails (`gestion`.`sale`, CONSTRAINT `sale_ibfk_2` FOREIGN KEY (`client_id`) REFERENCES `client` (`id`))
+CRITICAL - 2022-08-30 19:32:00 --> Archivo inválido: js/product.php
+#0 /opt/lampp/htdocs/gestion/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/gestion/system/Common.php(1091): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/gestion/app/Controllers/Product/Main.php(19): view()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#4 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2022-08-30 19:36:24 --> Archivo inválido: js/product.php
+#0 /opt/lampp/htdocs/gestion/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/gestion/system/Common.php(1091): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/gestion/app/Controllers/Product/Main.php(19): view()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#4 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+ERROR - 2022-08-30 19:36:33 --> Cannot delete or update a parent row: a foreign key constraint fails (`gestion`.`sale`, CONSTRAINT `sale_ibfk_2` FOREIGN KEY (`client_id`) REFERENCES `client` (`id`))
+CRITICAL - 2022-08-30 19:46:05 --> Archivo inválido: js/product.php
+#0 /opt/lampp/htdocs/gestion/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/gestion/system/Common.php(1091): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/gestion/app/Controllers/Product/Main.php(19): view()
+#3 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(825): App\Controllers\Product\Main->index()
+#4 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/gestion/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/gestion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/gestion/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}

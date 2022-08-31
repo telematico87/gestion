@@ -6,8 +6,7 @@ class ClientModel extends Model {
 
 	public function readClients(){
 		$results = $this->db
-		->table('client c')
-		->select('c.id, c.name, type_document as typedocument, num_document as numdocument, phone_number as phonenumber, c.email, c.address')
+		->table('client')
 		->get()
 		->getResultArray();
 
@@ -25,7 +24,7 @@ class ClientModel extends Model {
     }
 
     public function createClient($data){
-		$this->db
+		$create=$this->db
 		->table('client')
 		->set($data)
 		->insert();

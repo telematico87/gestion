@@ -57,21 +57,20 @@
 						</a>
 					</li>
 
+			
+
+				
+
 					<li class="nav-item">
-						<a data-bs-toggle="collapse" href="#sale" class="nav-link" aria-expanded="false">
+							<a class="nav-link" href="<?= base_url('cliente');?>">
 							<div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
-								<i class="fa-solid fa-cart-shopping text-dark text-sm opacity-10"></i>
-							</div>
-							<span class="nav-link-text ms-2">Ventas</span>
-						</a>
-						<div class="collapse" id="sale">
-							<ul class="nav ms-4"> 
-								<li class="nav-item"><a class="nav-link" href="<?= base_url('cliente');?>"><span class="sidenav-normal">Clientes</span></a>
-								</li>
-								<li class="nav-item"><a class="nav-link" href="<?= base_url('venta');?>"><span class="sidenav-normal">Ventas</span></a></li>
-							</ul>
-						</div>
+									<i class="fa-solid fa-cart-shopping text-dark text-sm opacity-10"></i>
+								</div>
+								<span class="nav-link-text">Clientes</span>
+							</a>
 					</li>
+
+			
 					<li class="nav-item">
 						<a class="nav-link" href="<?= base_url('usuario');?>">
 							<div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">

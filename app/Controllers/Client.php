@@ -36,10 +36,9 @@ class Client extends Controller
 
 		$validation = $this->validate([
       		'name' => 'required',
-			'typedocument' => 'required',
-			'numdocument' => 'required|is_natural|max_length[15]|is_unique[client.num_document]',
-			'phonenumber' => 'numeric|max_length[12]',
-			'email' => 'required|valid_email',
+			'type_document' => 'required',
+			'num_document' => 'required|is_unique[client.num_document]',
+			'phone_number' => 'numeric|max_length[12]',
 			'address' => 'max_length[80]']);
 
 		if(!$validation){ 
@@ -47,13 +46,37 @@ class Client extends Controller
 		} else {
 			$data = [
 				"name" => $this->request->getVar("name"),
-				"type_document" => $this->request->getVar("typedocument"),
-				"num_document" => $this->request->getVar("numdocument"),
-				"phone_number" => $this->request->getVar("phonenumber"),
+				"type_document" => $this->request->getVar("type_document"),
+				"num_document" => $this->request->getVar("num_document"),
+				"phone_number" => $this->request->getVar("phone_number"),
 				"email" => $this->request->getVar("email"),
-				"address" => $this->request->getVar("address")
-			];
+				"type_operator" => $this->request->getVar("type_operator"),
+				"place_birth" => $this->request->getVar("place_birth"),
+				"fecha_nacimiento" => $this->request->getVar("fecha_nacimiento"),
+				"responsible" => $this->request->getVar("responsible"),
+				"madre" => $this->request->getVar("madre"),
+				"padre" => $this->request->getVar("padre"),
+				"bussines_name" => $this->request->getVar("bussines_name"),
+				"fecha_emision" => $this->request->getVar("fecha_emision"),
+				"representante" => $this->request->getVar("representante"),
+				"dni_representante" => $this->request->getVar("dni_representante"),
+				"address_install" => $this->request->getVar("address_install"),
+				"type_service" => $this->request->getVar("type_service"),
+				"recomienda" => $this->request->getVar("recomienda"),
+				"district" => $this->request->getVar("district"),
+				"department" => $this->request->getVar("department"),
+				"province" => $this->request->getVar("province"),
+				"address_rf" => $this->request->getVar("address_rf"),
+				"address_billing" => $this->request->getVar("address_rf"),
+				"contact_phone" => $this->request->getVar("contact_phone"),
+				"email_notification" => $this->request->getVar("email_notification"),
+				"address_notification" => $this->request->getVar("address_notification"),
+				"fecha_emision_facturacion" => $this->request->getVar("fecha_emision_facturacion"),
+				"fecha_vencimiento_facturacion" => $this->request->getVar("fecha_vencimiento_facturacion"),
 
+			];
+			
+			
 			$clientModel->createClient($data);
 			$response = ['type' => "success", 'message' => "Los datos se guardaron correctamente!"];
 			echo json_encode($response);
@@ -67,16 +90,16 @@ class Client extends Controller
 		$numdocument = $clientModel->readClient($id)->num_document;
 		$validateDocument = '';
 
-		if($numdocument!=$this->request->getVar("numdocument")){
+		if($numdocument!=$this->request->getVar("num_document")){
 			$validateDocument = '|is_unique[client.num_document]';
 		}
 
 		$validation = $this->validate([
 			'name' => 'required',
-		  	'typedocument' => 'required',
-		  	'numdocument' => 'required'.$validateDocument,
-		  	'phonenumber' => 'numeric|max_length[12]',
-		  	'email' => 'required|valid_email',
+		  	'type_document' => 'required',
+		  	'num_document' => 'required'.$validateDocument,
+		  	'phone_number' => 'numeric|max_length[12]',
+		  	//'email' => 'required|valid_email',
 		  	'address' => 'max_length[80]']);
 
 		if(!$validation){ 
@@ -84,11 +107,34 @@ class Client extends Controller
 		} else {
 			$data = [
 				"name" => $this->request->getVar("name"),
-				"type_document" => $this->request->getVar("typedocument"),
-				"num_document" => $this->request->getVar("numdocument"),
-				"phone_number" => $this->request->getVar("phonenumber"),
+				"type_document" => $this->request->getVar("type_document"),
+				"num_document" => $this->request->getVar("num_document"),
+				"phone_number" => $this->request->getVar("phone_number"),
 				"email" => $this->request->getVar("email"),
-				"address" => $this->request->getVar("address")
+				"type_operator" => $this->request->getVar("type_operator"),
+				"place_birth" => $this->request->getVar("place_birth"),
+				"fecha_nacimiento" => $this->request->getVar("fecha_nacimiento"),
+				"responsible" => $this->request->getVar("responsible"),
+				"madre" => $this->request->getVar("madre"),
+				"padre" => $this->request->getVar("padre"),
+				"bussines_name" => $this->request->getVar("bussines_name"),
+				"fecha_emision" => $this->request->getVar("fecha_emision"),
+				"representante" => $this->request->getVar("representante"),
+				"dni_representante" => $this->request->getVar("dni_representante"),
+				"address_install" => $this->request->getVar("address_install"),
+				"type_service" => $this->request->getVar("type_service"),
+				"recomienda" => $this->request->getVar("recomienda"),
+				"district" => $this->request->getVar("district"),
+				"department" => $this->request->getVar("department"),
+				"province" => $this->request->getVar("province"),
+				"address_rf" => $this->request->getVar("address_rf"),
+				"address_billing" => $this->request->getVar("address_rf"),
+				"contact_phone" => $this->request->getVar("contact_phone"),
+				"email_notification" => $this->request->getVar("email_notification"),
+				"address_notification" => $this->request->getVar("address_notification"),
+				"fecha_emision_facturacion" => $this->request->getVar("fecha_emision_facturacion"),
+				"fecha_vencimiento_facturacion" => $this->request->getVar("fecha_vencimiento_facturacion"),
+
 			];
 
 			$clientModel->updateClient($id, $data);

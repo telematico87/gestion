@@ -86,10 +86,10 @@
 								<tbody>
 									<tr v-for="(item, index) in rows()">
 										<td class="px-4 text-xs font-weight-bold" width="20%">{{ item.name }}</td>
-										<td width="15%"><span class="text-xs font-weight-bold">{{ item.typedocument }}</span></td>
-										<td width="15%"><span class="text-xs font-weight-bold">{{ item.numdocument }}</span></td>
-										<td width="15%"><span class="text-xs font-weight-bold">{{ item.phonenumber }}</span></td>
-										<td><span class="text-xs font-weight-bold">{{ item.email }}</span></td>
+										<td width="15%"><span class="text-xs font-weight-bold">{{ item.type_document }}</span></td>
+										<td width="15%"><span class="text-xs font-weight-bold">{{ item.num_document }}</span></td>
+										<td width="15%"><span class="text-xs font-weight-bold">{{ item.phone_number }}</span></td>
+										<td><span class="text-xs font-weight-bold">{{ item.email_notification }}</span></td>
 										<td class="text-lg" width="6%">
 											<span type="button" id="options" data-bs-toggle="dropdown"><i class="fa-solid fa-list"></i></span>
 											<ul class="dropdown-menu" aria-labelledby="options">
@@ -130,13 +130,13 @@
 											<div class="col-md-4">
 												<div class="form-group">
 													<label>Responsable</label>
-													<select class="form-select" v-model="responsible" :class="{ 'is-invalid': errors.typeperson }">
+													<select class="form-select" v-model="responsible" :class="{ 'is-invalid': errors.responsible }">
 														<option disabled value="">Selecione</option>
 														<option value="AMED">Amed</option>
 														<option value="KAREN">Karen</option>
 														<option value="YUSEPI">Yusepi</option>
 													</select>
-													<div class="invalid-feedback">{{ errors.typeperson }}</div>
+													<div class="invalid-feedback">{{ errors.responsible }}</div>
 												</div>
 											</div>	
 											<h6 class="card-subtitle mb-2 text-muted">Datos del Servicio</h6>
@@ -144,40 +144,40 @@
 											<div class="col-md-4">
 											<div class="form-group">
 												<label>T. Operador</label>
-												<select class="form-select" v-model="typeoperator" :class="{ 'is-invalid': errors.typeoperator }">
+												<select class="form-select" v-model="type_operator" :class="{ 'is-invalid': errors.type_operator }">
 													<option disabled value="">Selecione</option>
 													<option value="MOV">Movistar</option>
 													<option value="ENT">Entel</option>
 													<option value="BIT">Bitel</option>
 												</select>
-												<div class="invalid-feedback">{{ errors.typeoperator }}</div>
+												<div class="invalid-feedback">{{ errors.type_operator }}</div>
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="form-group">
 												<label>T. Servicio</label>
-												<select class="form-select" v-model="typeservice" :class="{ 'is-invalid': errors.typeservice }">
+												<select class="form-select" v-model="type_service" :class="{ 'is-invalid': errors.type_service }">
 													<option disabled value="">Selecione</option>
 													<option value="MOV">Móvil</option>
 													<option value="HOG">Hogar</option>
 												</select>
-												<div class="invalid-feedback">{{ errors.typeservice }}</div>
+												<div class="invalid-feedback">{{ errors.type_service }}</div>
 											</div>
 										</div>
 
 										<div class="col-md-4">
 											<div class="form-group">
 												<label for="example-text-input" class="form-control-label">N° Celular / Teléfono</label>
-												<input v-model="phonenumber" class="form-control" type="text" placeholder="N° Celular / Teléfono" :class="{ 'is-invalid': errors.phonenumber }">
-												<div class="invalid-feedback">{{ errors.phonenumber }}</div>
+												<input v-model="phone_number" class="form-control" type="text" placeholder="N° Celular / Teléfono" :class="{ 'is-invalid': errors.phone_number }">
+												<div class="invalid-feedback">{{ errors.phone_number }}</div>
 											</div>
 										</div>
 
 										<div class="col-md-6">	
 											<div class="form-group">
 													<label for="example-text-input" class="form-control-label">Cuenta financiera</label>
-													<input v-model="financial_account" class="form-control" type="text" placeholder="Cuenta financiera" :class="{ 'is-invalid': errors.email }">
-													<div class="invalid-feedback">{{ errors.email }}</div>
+													<input v-model="financial_account" class="form-control" type="text" placeholder="Cuenta financiera" :class="{ 'is-invalid': errors.financial_account }">
+													<div class="invalid-feedback">{{ errors.financial_account }}</div>
 												</div>
 										</div>
 
@@ -192,12 +192,12 @@
 											<div class="col-md-3">
 												<div class="form-group">
 													<label>T. Persona</label>
-													<select class="form-select" v-model="typeperson" :class="{ 'is-invalid': errors.typeperson }">
+													<select class="form-select" v-model="type_person" :class="{ 'is-invalid': errors.type_person }">
 														<option disabled value="">Selecione</option>
 														<option value="NAT">Natural</option>
 														<option value="JUR">Juridica</option>
 													</select>
-													<div class="invalid-feedback">{{ errors.typeperson }}</div>
+													<div class="invalid-feedback">{{ errors.type_person }}</div>
 												</div>
 											</div>	
 											<div class="col-md-4">
@@ -211,22 +211,22 @@
 											<div class="col-md-5">
 												<div class="form-group">
 													<label for="example-text-input" class="form-control-label">Razón Social</label>
-													<input v-model="bussines_name" class="form-control" type="text" placeholder="Prenombres" :class="{ 'is-invalid': errors.bussines-name }">
-													<div class="invalid-feedback">{{ errors.bussines-name }}</div>
+													<input v-model="bussines_name" class="form-control" type="text" placeholder="Prenombres" :class="{ 'is-invalid': errors.bussines_name }">
+													<div class="invalid-feedback">{{ errors.bussines_name }}</div>
 												</div>
 											</div>	
 											<div class="col-md-4">
 												<div class="form-group">
 													<label for="example-text-input" class="form-control-label">Apellido Paterno</label>
-													<input v-model="apellido_paterno" class="form-control" type="text" placeholder="Apellido Paterno" :class="{ 'is-invalid': errors.name }">
-													<div class="invalid-feedback">{{ errors.name }}</div>
+													<input v-model="apellido_paterno" class="form-control" type="text" placeholder="Apellido Paterno" :class="{ 'is-invalid': errors.apellido_paterno }">
+													<div class="invalid-feedback">{{ errors.apellido_paterno }}</div>
 												</div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
 													<label for="example-text-input" class="form-control-label">Apellido Materno</label>
-													<input v-model="apellido_materno" class="form-control" type="text" placeholder="Apellido Materno" :class="{ 'is-invalid': errors.name }">
-													<div class="invalid-feedback">{{ errors.name }}</div>
+													<input v-model="apellido_materno" class="form-control" type="text" placeholder="Apellido Materno" :class="{ 'is-invalid': errors.apellido_materno }">
+													<div class="invalid-feedback">{{ errors.apellido_materno }}</div>
 												</div>
 											</div>
 
@@ -242,8 +242,8 @@
 											
 											<div class="form-group">
 												<label for="example-text-input" class="form-control-label">Dni Representante</label>
-												<input v-model="dni_representante" class="form-control" type="text" placeholder="Dni Representante" :class="{ 'is-invalid': errors.dni-representante }">
-												<div class="invalid-feedback">{{ errors.dni-representante }}</div>
+												<input v-model="dni_representante" class="form-control" type="text" placeholder="Dni Representante" :class="{ 'is-invalid': errors.dni_representante }">
+												<div class="invalid-feedback">{{ errors.dni_representante }}</div>
 											</div>
 										</div>
 
@@ -251,28 +251,28 @@
 										<div class="col-md-2">
 											<div class="form-group">
 												<label>T. Documento</label>
-												<select class="form-select" v-model="typedocument" :class="{ 'is-invalid': errors.typedocument }">
+												<select class="form-select" v-model="type_document" :class="{ 'is-invalid': errors.type_document }">
 													<option disabled value="">Selecione</option>
 													<option value="DNI">DNI</option>
 													<option value="RUC">RUC</option>
 													<option value="PAS">PASAPORTE</option>
 												</select>
-												<div class="invalid-feedback">{{ errors.typedocument }}</div>
+												<div class="invalid-feedback">{{ errors.type_document }}</div>
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="form-group">
 												<label for="example-text-input" class="form-control-label">N° Documento</label>
-												<input v-model="numdocument" class="form-control" type="text" placeholder="N° Documento" :class="{ 'is-invalid': errors.numdocument }">
-												<div class="invalid-feedback">{{ errors.numdocument }}</div>
+												<input v-model="num_document" class="form-control" type="text" placeholder="N° Documento" :class="{ 'is-invalid': errors.num_document }">
+												<div class="invalid-feedback">{{ errors.num_document }}</div>
 											</div>
 										</div>
 
 										<div class="col-md-6">
 											<div class="form-group">
 												<label for="exampleFormControlTextarea1">Direccion Real/Fiscal</label>
-												<textarea v-model="address_rf" class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Direccion" :class="{ 'is-invalid': errors.address }"></textarea>
-												<div class="invalid-feedback">{{ errors.address }}</div>
+												<textarea v-model="address_rf" class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Direccion" :class="{ 'is-invalid': errors.address_rf }"></textarea>
+												<div class="invalid-feedback">{{ errors.address_rf }}</div>
 											</div>
 										</div>
 
@@ -280,8 +280,8 @@
 											
 											<div class="form-group">
 												<label for="example-text-input" class="form-control-label">F. Nacimiento</label>
-												<input v-model="fecha-nacimiento" class="form-control" type="date" placeholder="F. Nacimiento" :class="{ 'is-invalid': errors.phonenumber }">
-												<div class="invalid-feedback">{{ errors.phonenumber }}</div>
+												<input v-model="fecha-nacimiento" class="form-control" type="date" placeholder="F. Nacimiento" :class="{ 'is-invalid': errors.fecha-nacimiento }">
+												<div class="invalid-feedback">{{ errors.fecha-nacimiento }}</div>
 											</div>
 										</div>
 
@@ -296,15 +296,15 @@
 										<div class="col-md-4">
 											<div class="form-group">
 												<label for="example-text-input" class="form-control-label">Madre</label>
-												<input v-model="madre" class="form-control" type="text" placeholder="Madre" :class="{ 'is-invalid': errors.numdocument }">
-												<div class="invalid-feedback">{{ errors.numdocument }}</div>
+												<input v-model="madre" class="form-control" type="text" placeholder="Madre" :class="{ 'is-invalid': errors.madre }">
+												<div class="invalid-feedback">{{ errors.madre }}</div>
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="form-group">
 												<label for="example-text-input" class="form-control-label">Padre</label>
-												<input v-model="padre" class="form-control" type="text" placeholder="Padre" :class="{ 'is-invalid': errors.numdocument }">
-												<div class="invalid-feedback">{{ errors.numdocument }}</div>
+												<input v-model="padre" class="form-control" type="text" placeholder="Padre" :class="{ 'is-invalid': errors.padre }">
+												<div class="invalid-feedback">{{ errors.padre }}</div>
 											</div>
 										</div>
 										
@@ -314,8 +314,8 @@
 									
 												<div class="form-group">
 													<label for="example-text-input" class="form-control-label">F. Emision Dni</label>
-													<input v-model="fecha_emision" class="form-control" type="date" placeholder="F. Emision" :class="{ 'is-invalid': errors.phonenumber }">
-													<div class="invalid-feedback">{{ errors.phonenumber }}</div>
+													<input v-model="fecha_emision" class="form-control" type="date" placeholder="F. Emision" :class="{ 'is-invalid': errors.fecha_emision }">
+													<div class="invalid-feedback">{{ errors.fecha_emision }}</div>
 												</div>
 											</div>
 
@@ -323,8 +323,8 @@
 										
 												<div class="form-group">
 													<label for="example-text-input" class="form-control-label">F. Vencimiento  Dni</label>
-													<input v-model="fecha_vencimiento" class="form-control" type="date" placeholder="F. vencimiento" :class="{ 'is-invalid': errors.phonenumber }">
-													<div class="invalid-feedback">{{ errors.phonenumber }}</div>
+													<input v-model="fecha_vencimiento" class="form-control" type="date" placeholder="F. vencimiento" :class="{ 'is-invalid': errors.fecha_vencimiento }">
+													<div class="invalid-feedback">{{ errors.fecha_vencimiento }}</div>
 												</div>
 											</div>
 
@@ -332,8 +332,8 @@
 									
 									<div class="form-group">
 										<label for="example-text-input" class="form-control-label">Departamento</label>
-										<input v-model="deparment" class="form-control" type="text" placeholder="Departamento" :class="{ 'is-invalid': errors.phonenumber }">
-										<div class="invalid-feedback">{{ errors.phonenumber }}</div>
+										<input v-model="deparment" class="form-control" type="text" placeholder="Departamento" :class="{ 'is-invalid': errors.deparment }">
+										<div class="invalid-feedback">{{ errors.deparment }}</div>
 									</div>
 								</div>
 								
@@ -341,7 +341,7 @@
 									
 									<div class="form-group">
 										<label for="example-text-input" class="form-control-label">Provincia</label>
-										<input v-model="province" class="form-control" type="text" placeholder="Provincia" :class="{ 'is-invalid': errors.phonenumber }">
+										<input v-model="province" class="form-control" type="text" placeholder="Provincia" :class="{ 'is-invalid': errors.province }">
 										<div class="invalid-feedback">{{ errors.province }}</div>
 									</div>
 								</div>
@@ -370,8 +370,8 @@
 											<div class="col-md-6">
 												<div class="form-group">
 													<label for="example-text-input" class="form-control-label">Celular</label>
-													<input v-model="contact_phone" class="form-control" type="text" placeholder="Celular" :class="{ 'is-invalid': errors.contact-phone }">
-													<div class="invalid-feedback">{{ errors.contact-phone }}</div>
+													<input v-model="contact_phone" class="form-control" type="text" placeholder="Celular" :class="{ 'is-invalid': errors.contact_phone }">
+													<div class="invalid-feedback">{{ errors.contact_phone }}</div>
 												</div>
 											</div>
 											
@@ -379,8 +379,8 @@
 											<div class="col-md-4">	
 													<div class="form-group">
 															<label for="example-text-input" class="form-control-label">Correo</label>
-															<input v-model="email_notification" class="form-control" type="text" placeholder="Email" :class="{ 'is-invalid': errors.email-notification }">
-															<div class="invalid-feedback">{{ errors.email-notification }}</div>
+															<input v-model="email_notification" class="form-control" type="text" placeholder="Email" :class="{ 'is-invalid': errors.email_notification }">
+															<div class="invalid-feedback">{{ errors.email_notification }}</div>
 														</div>
 												</div>
 																				
@@ -434,8 +434,8 @@
 										<div class="col-md-6">
 											<div class="form-group">
 												<label for="exampleFormControlTextarea1">Dirección Facturación</label>
-												<textarea v-model="address-billing" class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Dirección Facturación" :class="{ 'is-invalid': errors.address-billing }"></textarea>
-												<div class="invalid-feedback">{{ errors.address-billing }}</div>
+												<textarea v-model="address_billing" class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Dirección Facturación" :class="{ 'is-invalid': errors.address_billing }"></textarea>
+												<div class="invalid-feedback">{{ errors.address_billing }}</div>
 											</div>
 										</div>
 														
@@ -453,63 +453,336 @@
 				</div>
 
 				<!-- Modal Client Add -->
-				<div class="modal fade" ref="modalEdit" id="modalEdit" tabindex="-1" role="dialog" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal fade bd-example-modal-lg" ref="modalEdit" id="modalEdit" tabindex="-1" role="dialog" aria-hidden="true">
+					<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<form @submit.prevent="updateClient">
-								<div class="modal-body">
+							<div class="modal-body">
 
 									<div class="row">
-										<div class="col-md-12">
+										
 											<h4 class="mb-2">Actualizar cliente</h4>
+											<h6 class="card-subtitle mb-2 text-muted">Pertenencia</h6>
+											<div class="col-md-4">
+												<div class="form-group">
+													<label>Responsable</label>
+													<select class="form-select" v-model="responsible" :class="{ 'is-invalid': errors.responsible }">
+														<option disabled value="">Selecione</option>
+														<option value="AMED">Amed</option>
+														<option value="KAREN">Karen</option>
+														<option value="YUSEPI">Yusepi</option>
+													</select>
+													<div class="invalid-feedback">{{ errors.responsible }}</div>
+												</div>
+											</div>	
+											<h6 class="card-subtitle mb-2 text-muted">Datos del Servicio</h6>
+											
+											<div class="col-md-4">
 											<div class="form-group">
-												<label for="example-text-input" class="form-control-label">Nombre Cliente / Empresa</label>
-												<input v-model="name" class="form-control" type="text" placeholder="Nombre Cliente / Empresa" :class="{ 'is-invalid': errors.name }">
-												<div class="invalid-feedback">{{ errors.name }}</div>
+												<label>T. Operador</label>
+												<select class="form-select" v-model="type_operator" :class="{ 'is-invalid': errors.type_operator }">
+													<option disabled value="">Selecione</option>
+													<option value="MOV">Movistar</option>
+													<option value="ENT">Entel</option>
+													<option value="BIT">Bitel</option>
+												</select>
+												<div class="invalid-feedback">{{ errors.type_operator }}</div>
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="form-group">
+												<label>T. Servicio</label>
+												<select class="form-select" v-model="type_service" :class="{ 'is-invalid': errors.type_service }">
+													<option disabled value="">Selecione</option>
+													<option value="MOV">Móvil</option>
+													<option value="HOG">Hogar</option>
+												</select>
+												<div class="invalid-feedback">{{ errors.type_service }}</div>
+											</div>
+										</div>
+
+										<div class="col-md-4">
+											<div class="form-group">
+												<label for="example-text-input" class="form-control-label">N° Celular / Teléfono</label>
+												<input v-model="phone_number" class="form-control" type="text" placeholder="N° Celular / Teléfono" :class="{ 'is-invalid': errors.phone_number }">
+												<div class="invalid-feedback">{{ errors.phone_number }}</div>
+											</div>
+										</div>
+
+										<div class="col-md-6">	
+											<div class="form-group">
+													<label for="example-text-input" class="form-control-label">Cuenta financiera</label>
+													<input v-model="financial_account" class="form-control" type="text" placeholder="Cuenta financiera" :class="{ 'is-invalid': errors.financial_account }">
+													<div class="invalid-feedback">{{ errors.financial_account }}</div>
+												</div>
+										</div>
+
+										<div class="col-md-6">	
+											<div class="form-group">
+													<label for="example-text-input" class="form-control-label">Dirección Instalación</label>
+													<input v-model="address_install" class="form-control" type="text" placeholder="Dirección Instalación" :class="{ 'is-invalid': errors.address-install }">
+													<div class="invalid-feedback">{{ errors.address-install }}</div>
+												</div>
+										</div>
+										<h6 class="card-subtitle mb-2 text-muted">Datos del cliente</h6>
+											<div class="col-md-3">
+												<div class="form-group">
+													<label>T. Persona</label>
+													<select class="form-select" v-model="type_person" :class="{ 'is-invalid': errors.type_person }">
+														<option disabled value="">Selecione</option>
+														<option value="NAT">Natural</option>
+														<option value="JUR">Juridica</option>
+													</select>
+													<div class="invalid-feedback">{{ errors.type_person }}</div>
+												</div>
+											</div>	
+											<div class="col-md-4">
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">Prenombres</label>
+													<input v-model="name" class="form-control" type="text" placeholder="Prenombres" :class="{ 'is-invalid': errors.name }">
+													<div class="invalid-feedback">{{ errors.name }}</div>
+												</div>
+											</div>	
+
+											<div class="col-md-5">
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">Razón Social</label>
+													<input v-model="bussines_name" class="form-control" type="text" placeholder="Prenombres" :class="{ 'is-invalid': errors.bussines_name }">
+													<div class="invalid-feedback">{{ errors.bussines_name }}</div>
+												</div>
+											</div>	
+											<div class="col-md-4">
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">Apellido Paterno</label>
+													<input v-model="apellido_paterno" class="form-control" type="text" placeholder="Apellido Paterno" :class="{ 'is-invalid': errors.apellido_paterno }">
+													<div class="invalid-feedback">{{ errors.apellido_paterno }}</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">Apellido Materno</label>
+													<input v-model="apellido_materno" class="form-control" type="text" placeholder="Apellido Materno" :class="{ 'is-invalid': errors.apellido_materno }">
+													<div class="invalid-feedback">{{ errors.apellido_materno }}</div>
+												</div>
+											</div>
+
+											<div class="col-md-4">
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">Representante</label>
+													<input v-model="representante" class="form-control" type="text" placeholder="Representante" :class="{ 'is-invalid': errors.representante }">
+													<div class="invalid-feedback">{{ errors.representante }}</div>
+												</div>
+											</div>
+
+											<div class="col-md-6">
+											
+											<div class="form-group">
+												<label for="example-text-input" class="form-control-label">Dni Representante</label>
+												<input v-model="dni_representante" class="form-control" type="text" placeholder="Dni Representante" :class="{ 'is-invalid': errors.dni_representante }">
+												<div class="invalid-feedback">{{ errors.dni_representante }}</div>
+											</div>
+										</div>
+
+										
+										<div class="col-md-2">
+											<div class="form-group">
 												<label>T. Documento</label>
-												<select class="form-select" v-model="typedocument" :class="{ 'is-invalid': errors.typedocument }">
+												<select class="form-select" v-model="type_document" :class="{ 'is-invalid': errors.type_document }">
 													<option disabled value="">Selecione</option>
 													<option value="DNI">DNI</option>
 													<option value="RUC">RUC</option>
-													<option value="PASAPORTE">PASAPORTE</option>
+													<option value="PAS">PASAPORTE</option>
 												</select>
-												<div class="invalid-feedback">{{ errors.typedocument }}</div>
+												<div class="invalid-feedback">{{ errors.type_document }}</div>
 											</div>
 										</div>
-										<div class="col-md-8">
+										<div class="col-md-4">
 											<div class="form-group">
 												<label for="example-text-input" class="form-control-label">N° Documento</label>
-												<input v-model="numdocument" class="form-control" type="text" placeholder="N° Documento" :class="{ 'is-invalid': errors.numdocument }">
-												<div class="invalid-feedback">{{ errors.numdocument }}</div>
+												<input v-model="num_document" class="form-control" type="text" placeholder="N° Documento" :class="{ 'is-invalid': errors.num_document }">
+												<div class="invalid-feedback">{{ errors.num_document }}</div>
 											</div>
 										</div>
-										<div class="col-md-12">
+
+										<div class="col-md-6">
 											<div class="form-group">
-												<label for="example-text-input" class="form-control-label">N° Celular / Teléfono</label>
-												<input v-model="phonenumber" class="form-control" type="text" placeholder="N° Celular / Teléfono" :class="{ 'is-invalid': errors.phonenumber }">
-												<div class="invalid-feedback">{{ errors.phonenumber }}</div>
+												<label for="exampleFormControlTextarea1">Direccion Real/Fiscal</label>
+												<textarea v-model="address_rf" class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Direccion" :class="{ 'is-invalid': errors.address_rf }"></textarea>
+												<div class="invalid-feedback">{{ errors.address_rf }}</div>
 											</div>
+										</div>
+
+										<div class="col-md-4">
+											
 											<div class="form-group">
-												<label for="example-text-input" class="form-control-label">Email</label>
-												<input v-model="email" class="form-control" type="text" placeholder="Email" :class="{ 'is-invalid': errors.email }">
-												<div class="invalid-feedback">{{ errors.email }}</div>
+												<label for="example-text-input" class="form-control-label">F. Nacimiento</label>
+												<input v-model="fecha-nacimiento" class="form-control" type="date" placeholder="F. Nacimiento" :class="{ 'is-invalid': errors.fecha-nacimiento }">
+												<div class="invalid-feedback">{{ errors.fecha-nacimiento }}</div>
 											</div>
+										</div>
+
+										<div class="col-md-8">
 											<div class="form-group">
-												<label for="exampleFormControlTextarea1">Direccion</label>
-												<textarea v-model="address" class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Direccion" :class="{ 'is-invalid': errors.address }"></textarea>
-												<div class="invalid-feedback">{{ errors.address }}</div>
+												<label for="example-text-input" class="form-control-label">Lugar de Nacimiento</label>
+												<input v-model="place_birth" class="form-control" type="text" placeholder="Lugar de Nacimiento" :class="{ 'is-invalid': errors.place-birth }">
+												<div class="invalid-feedback">{{ errors.place-birth }}</div>
 											</div>
+										</div>
+
+										<div class="col-md-4">
+											<div class="form-group">
+												<label for="example-text-input" class="form-control-label">Madre</label>
+												<input v-model="madre" class="form-control" type="text" placeholder="Madre" :class="{ 'is-invalid': errors.madre }">
+												<div class="invalid-feedback">{{ errors.madre }}</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+												<label for="example-text-input" class="form-control-label">Padre</label>
+												<input v-model="padre" class="form-control" type="text" placeholder="Padre" :class="{ 'is-invalid': errors.padre }">
+												<div class="invalid-feedback">{{ errors.padre }}</div>
+											</div>
+										</div>
+										
+
+												
+											<div class="col-md-4">
+
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">F. Emision Dni</label>
+													<input v-model="fecha_emision" class="form-control" type="date" placeholder="F. Emision" :class="{ 'is-invalid': errors.fecha_emision }">
+													<div class="invalid-feedback">{{ errors.fecha_emision }}</div>
+												</div>
+											</div>
+
+											<div class="col-md-4">
+										
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">F. Vencimiento  Dni</label>
+													<input v-model="fecha_vencimiento" class="form-control" type="date" placeholder="F. vencimiento" :class="{ 'is-invalid': errors.fecha_vencimiento }">
+													<div class="invalid-feedback">{{ errors.fecha_vencimiento }}</div>
+												</div>
+											</div>
+
+											<div class="col-md-4">
+
+									<div class="form-group">
+										<label for="example-text-input" class="form-control-label">Departamento</label>
+										<input v-model="deparment" class="form-control" type="text" placeholder="Departamento" :class="{ 'is-invalid': errors.deparment }">
+										<div class="invalid-feedback">{{ errors.deparment }}</div>
+									</div>
+									</div>
+
+									<div class="col-md-4">
+
+									<div class="form-group">
+										<label for="example-text-input" class="form-control-label">Provincia</label>
+										<input v-model="province" class="form-control" type="text" placeholder="Provincia" :class="{ 'is-invalid': errors.province }">
+										<div class="invalid-feedback">{{ errors.province }}</div>
+									</div>
+									</div>
+
+
+									<div class="col-md-4">
+
+									<div class="form-group">
+										<label for="example-text-input" class="form-control-label">Distrito</label>
+										<input v-model="district" class="form-control" type="text" placeholder="Distrito" :class="{ 'is-invalid': errors.district }">
+										<div class="invalid-feedback">{{ errors.district }}</div>
+									</div>
+									</div>		
+
+										
+											<h6 class="card-subtitle mb-2 text-muted">Datos del contacto</h6>
+											
+											<div class="col-md-6">
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">Persona Recomienda</label>
+													<input v-model="recomienda" class="form-control" type="text" placeholder="Persona Recomienda" :class="{ 'is-invalid': errors.recomienda }">
+													<div class="invalid-feedback">{{ errors.recomienda }}</div>
+												</div>
+											</div>
+
+											<div class="col-md-6">
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">Celular</label>
+													<input v-model="contact_phone" class="form-control" type="text" placeholder="Celular" :class="{ 'is-invalid': errors.contact_phone }">
+													<div class="invalid-feedback">{{ errors.contact_phone }}</div>
+												</div>
+											</div>
+											
+											<h6 class="card-subtitle mb-2 text-muted">Datos de Notificación</h6>
+											<div class="col-md-4">	
+													<div class="form-group">
+															<label for="example-text-input" class="form-control-label">Correo</label>
+															<input v-model="email_notification" class="form-control" type="text" placeholder="Email" :class="{ 'is-invalid': errors.email_notification }">
+															<div class="invalid-feedback">{{ errors.email_notification }}</div>
+														</div>
+												</div>
+																				
+
+												<div class="col-md-6">
+													<div class="form-group">
+														<label for="exampleFormControlTextarea1">Dirección Notifición</label>
+														<textarea v-model="address_notification" class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Dirección Notifición" :class="{ 'is-invalid': errors.address_notification }"></textarea>
+														<div class="invalid-feedback">{{ errors.address_notification }}</div>
+													</div>
+												</div>
+
+												<h6 class="card-subtitle mb-2 text-muted">Datos de Facturación</h6>
+														<div class="col-md-6">
+															<div class="form-group">
+																<label>Ciclo</label>
+																<select class="form-select" v-model="cycle" :class="{ 'is-invalid': errors.cycle }">
+																	<option disabled value="">Selecione</option>
+																	<option value="1">Ciclo 1</option>
+																	<option value="2">Ciclo 2</option>
+																	<option value="6">Ciclo 6</option>
+																	<option value="16">Ciclo 16</option>
+																	<option value="18">Ciclo 18</option>
+																	<option value="19">Ciclo 19</option>
+																	<option value="24">Ciclo 24</option>
+																</select>
+																<div class="invalid-feedback">{{ errors.cycle }}</div>
+															</div>
+														</div>
+
+														<div class="col-md-4">
+
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">F. Emision </label>
+													<input v-model="fecha_emision_facturacion" class="form-control" type="date" placeholder="F. Emision" :class="{ 'is-invalid': errors.fecha-emision-facturacion }">
+													<div class="invalid-feedback">{{ errors.fecha_emision_facturacion }}</div>
+												</div>
+											</div>
+
+											<div class="col-md-4">
+										
+												<div class="form-group">
+													<label for="example-text-input" class="form-control-label">F. Vencimiento </label>
+													<input v-model="fecha_vencimiento_facturacion" class="form-control" type="date" placeholder="F. vencimiento" :class="{ 'is-invalid': errors.fecha-vencimiento-facturacion }">
+													<div class="invalid-feedback">{{ errors.fecha_vencimiento_facturacion }}</div>
+												</div>
+											</div>
+
+
+											
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="exampleFormControlTextarea1">Dirección Facturación</label>
+												<textarea v-model="address_billing" class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Dirección Facturación" :class="{ 'is-invalid': errors.address_billing }"></textarea>
+												<div class="invalid-feedback">{{ errors.address_billing }}</div>
+											</div>
+										</div>
+														
+											
 											<div class="button-row d-flex mt-4 mb-2">
 												<button class="btn bg-gradient-success ms-auto mb-0" type="submit">Guardar</button>
 											</div>
-										</div>
+										
 									</div>
-									
-								</div>
+
+									</div>
 							</form>
 						</div>
 					</div>
